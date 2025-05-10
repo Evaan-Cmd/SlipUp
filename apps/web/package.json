@@ -2,8 +2,13 @@
   "name": "web",
   "version": "1.0.0",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "build:web": "cd apps/web && vite build"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "vite": "^4.0.0"
+  },
+  "devDependencies": {
+    "pnpm": "^8.0.0"
+  }
 }
