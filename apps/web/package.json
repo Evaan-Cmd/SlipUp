@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "vite build"
+    "build:web": "pnpm --filter web run build"    
   },
   "dependencies": {},
   "devDependencies": {}
